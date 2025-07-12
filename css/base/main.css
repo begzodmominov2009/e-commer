@@ -1,12 +1,22 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
+}
+
+:root {
+    --orenge-color: #FA8232;
+    --blue-color: #2DA5F3;
+    --yellow-color:red;
+    --white-color:white;
+    --yellow-color:yellow;
 }
