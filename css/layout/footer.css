@@ -5,7 +5,7 @@ ul {
 #footer {
     background-color: #1B6392;
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .footer-class2 {
@@ -18,12 +18,12 @@ ul {
     font-size: 30px;
     font-weight: 600px;
     font-family: sans-serif;
-    /* padding-top: 50px; */
 }
 
 .footer-subtitle2 {
     color: silver;
     line-height: 25px;
+    padding-top: 15px;
 }
 
 .footer-input {
@@ -31,7 +31,8 @@ ul {
     height: 48px;
     border-radius: 2px;
     border: none;
-    padding-left: 20px
+    padding-left: 20px;
+    margin-top: 15px;
 }
 
 .footer-btn {
@@ -52,7 +53,7 @@ ul {
     align-items: center;
     gap: 35px;
     justify-content: center;
-    margin-top: 15px;
+     margin-top: 15px;
 }
 
 /* 
@@ -73,11 +74,15 @@ footer2 css */
     color: white;
     font-size: 18px;
     font-family: sans-serif;
+    padding-top: 15px;
 }
 
 .footer2-subtitle3 {
     color: #77878F;
     font-family: sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 25px;
 }
 
 .footer2-link {
@@ -101,7 +106,7 @@ footer2 css */
 .footer-li {
     color: white;
     font-size: 19px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 .footer-img {
@@ -151,4 +156,7 @@ footer2 css */
     border: 1px solid gray;
     background-color: #191C1F;
     color: white;
+}
+.full-btn{
+    margin-top: 25px;
 }
