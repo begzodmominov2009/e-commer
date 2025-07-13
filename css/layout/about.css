@@ -1,60 +1,146 @@
-.cnt{
+.cnt {
     display: flex;
+    padding-top: 200px;
+
 }
-.btns{
+
+.btns {
     border: 1px solid #2DA5F3;
     background-color: #2DA5F3;
     color: white;
     padding-top: 10px;
-    text-align: center; 
-    border-radius: 3px;  
+    text-align: center;
+    border-radius: 3px;
     width: 130px;
     height: 40px;
     margin-top: 100px;
 }
-.kkk{
-    margin-top: 30px;
-    line-height: 40px;
-}
-.ppp{
-    margin-top: 30px;
-    line-height: 25px
-}
-.menu{
-    display: flex;
-    gap: 10px;
-    margin-top: 20px;
-}
-.kinbo-menu{
-    margin-bottom: 50px;
-}
-.kevin{
-    text-align: center;
-    margin-top: 60px;
-}
-.card{
-    border: 1px solid silver;
+
+.our-card {
+    border: 1px solid rgb(223, 219, 219);
     width: 300px;
     height: 100px;
     display: flex;
-    align-items: center;
-    padding-left: 35px;
+    padding-left: 40px;
 }
-.con-title{
-    padding-left: 5px;
+
+.con-title {
+    padding-top: 20px;
+    padding-left: 25px;
     line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.3px;
 }
-.card img{
-    width: 28px;
-    padding-left: 5px;
+
+.our-card img {
+    width: 60px;
+    padding-right: 15px;
+    padding-top: 20px;
 }
-.cardlar{
+
+.cardlar {
     display: flex;
     gap: 25px;
     margin-top: 40px;
 }
-.head-img{
-    height: 450px;
-    margin-top: 110px;
+
+.kkk {
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+.ppp {
+    margin-top: 30px;
+    line-height: 25px
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.kinbo-menu {
+    margin-bottom: 50px;
+}
+
+.kevin {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.head-img {
+    height: 500px;
+    margin-top: 60px;
     margin-left: 150px;
+}
+
+.image {
+    width: 28px;
+
+}
+
+
+.cnr {
+    background-image: url(/images/Banner.png);
+    max-width: 100%;
+    height: 400px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.trust h1 {
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+.trust p {
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.sale-teg {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale-card {
+    border: 1px solid rgb(223, 219, 219);
+    width: 312px;
+    height: 135x;
+    display: flex;
+    padding-left: 40px;
+    margin-top: 15px;
+}
+
+.sale-title {
+    padding-top: 20px;
+    /* padding-left: -100px; */
+    line-height: 25px;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    padding-right: 30px;
+}
+
+.sale-page {
+    color: #2DA5F3;
+    padding-right: 157px;
+    padding-bottom: 13.5px;
+}
+.sales{
+   display: flex;
+   justify-content: center;
+   max-width: 100%;
+   width: 100%;
+    gap: 15px;
+    margin-top: 40px; 
+    /* padding-right: 2150px; */
+
+}
+
+.sale img {
+    padding-top: 20px;
+    width: 100px;
+    padding-right: 45px;
 }
