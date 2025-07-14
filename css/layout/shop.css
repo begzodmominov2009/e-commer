@@ -1,0 +1,271 @@
+#nav{
+    background-color: #F2F4F5;
+}
+.shop-navbar{
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+nav ul li a{
+    display: flex;
+    color: #5F6C72;
+    font-size: 14px;
+    align-items: center;
+}
+nav ul li a:hover{
+    color: blue;
+}
+@media (max-width:400px) {
+    nav ul li a{
+        font-size: 12px;
+    }
+}
+
+.cotegory{
+    padding-top: 40px;
+    padding-bottom: 72px;
+    display: flex;
+    gap: 60px;
+}
+.kategoriya{
+    max-width: 312px;
+}
+.kategoriya h4{
+    font-size: 16px;
+    line-height: 24px;
+}
+.boxes{
+    margin-top: 10px;
+}
+label{
+    color: #5F6C72;
+}
+hr, .range{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+input{
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.minprice, .maxprice{
+    padding: 10px 43px;
+    border: 1px solid #E4E7E9;
+    border-radius: 3px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    color: #77878F;
+}
+.minprice:hover, .maxprice:hover{
+    background-color: #FA8232;
+    color: white;
+}
+.maxprice{
+    margin-left: 10px;
+}
+.range{
+    padding: 5px 90px;
+}
+label:hover{
+    color: #3b4347;
+    font-size: 18px;
+}
+.brand{
+    max-width: 212px;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: space-between;
+}
+.brands{
+    margin-top: 10px;
+}
+
+.tag{
+    max-width: 312px;
+}
+.tags{
+    margin-top: 15px;
+}
+.tags button{
+    padding: 6px 12px;
+    background-color: transparent;
+    border: 1px solid #E4E7E9;
+    margin: 2px;
+    border-radius: 2px;
+}
+.tags button:hover{
+    background-color: #FFF3EB;
+    color: #FA8232;
+    border: 1px solid #FA8232;
+}
+.watch-card{
+    max-width: 312px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+}
+.watch1{
+    max-width: 180px;
+    width: 100%;
+}
+.watch2{
+    margin-top: 20px;
+    max-width: 132px;
+    width: 100%;
+}
+.watch-card h3{
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 32px;
+    width: 248px;
+}
+.watch-card p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.USD{
+    background-color: #F3DE6D;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600px;
+}
+
+.btn1, .btn2{
+    margin-top: 20px;
+    padding: 5px 64px;
+    font-size: 14px;
+    line-height: 48px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #FA8232;
+    color: #FA8232;
+}
+.arrow{
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.white{
+    display: none;
+    background-color: transparent;
+}
+.btn2{
+    padding: 5px 54px;
+}
+
+.watch-card button:hover{
+    .orange{
+        display: none;
+    }
+    .white{
+        display: block;
+    }
+    
+    background-color: #FA8232;
+    color: white;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 265px;
+}
+.select{
+    display: flex;
+    gap: 30px;
+}
+.select2{
+    border: 1px solid #E4E7E9;
+    background-color: transparent;
+    padding: 5px 18px;
+    color: #5F6C72;
+}
+.option, .select p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.search input{
+    padding: 5px 100px;
+    border: 1px solid #E4E7E9;
+    background-color: transparent;
+}
+.filter{
+    background-color: #F2F4F5;
+    display: flex;
+    gap: 370px;
+    align-items: center;
+    max-width: 984px;
+    height: 44px;
+    margin-top: 15px;
+    padding: 5px 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.filters{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.x{
+    color: #77878F;
+}
+.x:hover{
+    cursor: pointer;
+    color: #FA8232;
+}
+.img{
+    max-width: 202px;
+    width: 100%;
+    height: 172px;
+}
+.star{
+    max-width: 114px;
+    width: 100%;
+    margin-top: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    align-items: center;
+    gap: 20px;
+}
+.box{
+    border: 1px solid #E4E7E9;
+    padding: 0 10px;
+    max-width: 234px;
+    height: 320px;
+}
+.box-desc{
+    font-size: 14px;
+    line-height: 20px;
+    color: #191C1F;
+    margin-top: 10px;
+}
+.del{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.pr{
+    margin-top: 20px;
+    color: #2DA5F3;
+    font-size: 14px;
+    line-height: 20px;
+}
+del{
+    margin-top: 20px;
+    color: #929FA5;
+}

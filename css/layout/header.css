@@ -50,7 +50,7 @@ header {
     width: 100px;
     height: 25px;
     border: none;
-    background-color: white;
+    /* background-color: white; */
 }
 
 .head-class {
@@ -89,7 +89,6 @@ header {
     display: flex;
     gap: 25px;
     align-items: center;
-    background-color: white;
 }
 
 .head-select2 {
