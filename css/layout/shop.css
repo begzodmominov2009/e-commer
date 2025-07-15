@@ -210,12 +210,13 @@ label:hover{
     display: flex;
     gap: 370px;
     align-items: center;
-    max-width: 574px;
+    max-width: 974px;
     height: 44px;
     margin-top: 15px;
     padding: 5px 20px;
     font-size: 14px;
     line-height: 20px;
+    margin-bottom: 20px;
 }
 .filters{
     display: flex;
