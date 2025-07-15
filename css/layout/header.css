@@ -38,10 +38,10 @@ header {
     top: 0px;
     z-index: 1;
     width: 100%;
-    
+
 }
 
-#header2{
+#header2 {
     background-color: white;
     top: 135px;
     height: 100px;
@@ -57,6 +57,14 @@ header {
     height: 25px;
     border: none;
     /* background-color: white; */
+    outline: none;
+    background-color: #1B6392;
+    color: white;
+    transition: 0.5s
+}
+.head-select:hover option{
+    background-color: white;
+    color: black;
 }
 
 .head-class {
@@ -82,6 +90,8 @@ header {
     border-radius: 3px;
     border: none;
     cursor: pointer;
+    outline: none;
+    padding-right: 20px;
 }
 
 .head-logo {
@@ -89,7 +99,7 @@ header {
 
 }
 
-.next { 
+.next {
 
     padding-top: 30px;
     display: flex;
@@ -102,6 +112,20 @@ header {
     height: 38px;
     border: none;
     cursor: pointer;
+    outline: none;
+    background-color: whitesmoke;
+    transition: 0.7s;
+    padding-left: 12px;
+}
+
+.head-select2:hover {
+    background-color: #FA8232;
+    color: white;
+}
+
+.head-select2:hover option {
+    background-color: whitesmoke;
+    color: black;
 }
 
 .head-btn {

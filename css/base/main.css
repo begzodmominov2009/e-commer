@@ -16,7 +16,9 @@ ul {
 :root {
     --orenge-color: #FA8232;
     --blue-color: #2DA5F3;
-    --yellow-color:red;
-    --white-color:white;
-    --yellow-color:yellow;
+    --yellow-color: red;
+    --white-color: white;
+    --yellow-color: yellow;
+    --text-color: #ADB7BC;
+    
 }
