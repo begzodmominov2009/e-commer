@@ -9,3 +9,6 @@
 @import url(./state/container.css);
 @import url(./layout/show.css);
 @import url("./layout/register.css");
+@import url("./layout/checkout-success.css");
+@import url("./layout/checkout.css");
+@import url("./layout/shopping-car.css");
