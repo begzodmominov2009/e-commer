@@ -126,6 +126,7 @@ footer2 css */
     border: 1px solid gray;
     background-color: #191C1F;
     color: white;
+    transition: 0.5s;
 }
 .footer2-b a{
     color: white;
@@ -147,6 +148,7 @@ footer2 css */
     border: 1px solid gray;
     background-color: #191C1F;
     color: white;
+    transition: 0.5s;
 }
 .footer2-btn:hover{
     background-color: white;
