@@ -57,7 +57,7 @@ input{
     cursor: pointer;
 }
 .minprice, .maxprice{
-    padding: 10px 43px;
+    padding: 10px 40px;
     border: 1px solid #E4E7E9;
     border-radius: 3px;
     background-color: transparent;
@@ -331,7 +331,7 @@ del{
     align-items: center;
     justify-content: center;
     gap: 15px;
-}
+} 
 .next-btn{
     background-color: transparent;
     border: #FA8232 1px solid;

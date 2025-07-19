@@ -127,7 +127,18 @@ footer2 css */
     background-color: #191C1F;
     color: white;
 }
-
+.footer2-b a{
+    color: white;
+}
+.footer2-bt a{
+    color: white;
+}
+.footer2-btn a{
+    color: white;
+}
+.footer2-btnn a{
+    color: white;
+}
 .footer2-bt {
     width: 43px;
     height: 30px;
@@ -137,7 +148,30 @@ footer2 css */
     background-color: #191C1F;
     color: white;
 }
-
+.footer2-btn:hover{
+    background-color: white;
+}
+.footer2-btn:hover a{
+    color: black;
+}
+.footer2-b:hover{
+    background-color: white;
+}
+.footer2-b:hover a{
+    color: black;
+}
+.footer2-bt:hover{
+    background-color: white;
+}
+.footer2-bt:hover a{
+    color: black;
+}
+.footer2-btnn:hover{
+    background-color: white;
+}
+.footer2-btnn:hover a{
+    color: black;
+}
 .footer2-btnn {
     width: 113px;
     height: 32px;

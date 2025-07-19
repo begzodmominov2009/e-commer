@@ -111,7 +111,7 @@
                         <img src="../images/home/MapPinLine.png" alt="MapP">
                     </div>
                     <div>
-                        <a href="./pages/about.html">About Us</a>
+                        <a href="../pages/about.html">About Us</a>
                     </div>
                 </div>
                 <div class="head-class2">
@@ -151,6 +151,7 @@
     </header>
     <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
     <!-- Bu br lar header va footer orasini ochib turish uchun qoyilgan main qismini yaratib turganizda olib tashlang -->
+
 
     <main>
 
@@ -194,52 +195,52 @@
                 <div class="kategoriya">
                     <h4>COTEGORY</h4>
                     <div class="boxes">
-                        <input type="radio">
-                        <label for="radio">Electronics Devices</label>
+                        <input id="komp" name="elektr" type="radio">
+                        <label for="komp">Electronics Devices</label>
                     </div>
                     <div class="boxes">
-                        <input type="radio">
-                        <label for="radio">Computer & Laptop</label>
+                        <input id="laptop" name="elektr" type="radio">
+                        <label for="laptop">Computer & Laptop</label>
                     </div>
                     <div class="boxes">
-                        <input type="radio">
-                        <label for="radio">Computer Accessories</label>
+                        <input id="aksesuar" name="elektr" type="radio">
+                        <label for="aksesuar">Computer Accessories</label>
                     </div>
                     <div class="boxes">
-                        <input type="radio">
-                        <label for="radio">SmartPhone</label>
+                        <input id="phone" name="elektr" type="radio">
+                        <label for="phone">SmartPhone</label>
                     </div>
                     <div class="boxes">
-                        <input type="radio">
-                        <label for="radio">Headphone</label>
+                        <input id="headphone" name="elektr" type="radio">
+                        <label for="headphone">Headphone</label>
                     </div>
                     <div class="boxes">
-                        <input type="radio">
-                        <label for="radio">Mobile Accessories</label>
+                        <input id="mobilaksesuar" name="elektr" type="radio">
+                        <label for="mobilaksesuar">Mobile Accessories</label>
                     </div>
                     <div class="boxes">
-                        <input type="radio">
-                        <label for="radio">Gaming Console</label>
+                        <input id="gaming" name="elektr" type="radio">
+                        <label for="gaming">Gaming Console</label>
                     </div>
                     <div class="boxes">
-                        <input type="radio">
-                        <label for="radio">Camera & Photo</label>
+                        <input id="comera" name="elektr" type="radio">
+                        <label for="comera">Camera & Photo</label>
                     </div>
                     <div class="boxes">
-                        <input type="radio">
-                        <label for="radio">TV & Homes Appliances</label>
+                        <input id="tv" name="elektr" type="radio">
+                        <label for="tv">TV & Homes Appliances</label>
                     </div>
                     <div class="boxes">
-                        <input type="radio">
-                        <label for="radio">Watchs & Accessories</label>
+                        <input id="watches" name="elektr" type="radio">
+                        <label for="watches">Watchs & Accessories</label>
                     </div>
                     <div class="boxes">
-                        <input type="radio">
-                        <label for="radio">GPS & Navigation</label>
+                        <input id="gps" name="elektr" type="radio">
+                        <label for="gps">GPS & Navigation</label>
                     </div>
                     <div class="boxes">
-                        <input type="radio">
-                        <label for="radio">Warable Technology</label>
+                        <input id="warable" name="elektr" type="radio">
+                        <label for="warable">Warable Technology</label>
                     </div>
 
 
@@ -252,28 +253,28 @@
                     <button class="maxprice">Max Price</button>
 
                     <div class="boxes">
-                        <input type="radio">
-                        <label class="prices" for="radio">Under $20</label>
+                        <input id="20" name="price" type="radio">
+                        <label class="prices" for="20">Under $20</label>
                     </div>
                     <div class="boxes">
-                        <input type="radio">
-                        <label class="prices" for="radio">$25 to $100</label>
+                        <input id="100" name="price" type="radio">
+                        <label class="prices" for="100">$25 to $100</label>
                     </div>
                     <div class="boxes">
-                        <input type="radio">
-                        <label class="prices" for="radio">$100 to $300</label>
+                        <input id="300" name="price" type="radio">
+                        <label class="prices" for="300">$100 to $300</label>
                     </div>
                     <div class="boxes">
-                        <input type="radio">
-                        <label class="prices" for="radio">$300 to $500</label>
+                        <input id="500" name="price" type="radio">
+                        <label class="prices" for="500">$300 to $500</label>
                     </div>
                     <div class="boxes">
-                        <input type="radio">
-                        <label class="prices" for="radio">$500 to $1,000</label>
+                        <input id="1000" name="price" type="radio">
+                        <label class="prices" for="1000">$500 to $1,000</label>
                     </div>
                     <div class="boxes">
-                        <input type="radio">
-                        <label class="prices" for="radio">$1,000 to 10,000</label>
+                        <input id="10000" name="price" type="radio">
+                        <label class="prices" for="10000">$1,000 to 10,000</label>
                     </div>
                     <hr>
 
@@ -1140,7 +1141,7 @@
         </section>
     </main>
 
-    <footer>
+      <footer>
         <section id="footer">
             <div class="container">
                 <div class="footer-class2">
@@ -1230,25 +1231,35 @@
                     <p class="footer2-subtitle4">POPULAR TAG</p>
                     <div class="full-btn">
                         <div>
-                            <button class="footer2-btn"><a href=""></a>Game</button>
-                            <button class="footer2-btn"><a href=""></a>iPhone</button>
-                            <button class="footer2-bt"><a href=""></a>TV</button>
-                            <button class="footer2-btnn"><a href=""></a>Asus Laptops</button>
+                            <button class="footer2-btn"><a href="https://poki.com/">Game</a></button>
+                            <button class="footer2-btn"><a href="https://www.apple.com/iphone/">iPhone</a></button>
+                            <button class="footer2-bt"><a href="https://www.youtube.com/@youtubetv">TV</a></button>
+                            <button class="footer2-btnn"><a
+                                    href="https://www.asus.com/us/laptops/ Ffor-home/all-series/">Asus
+                                    Laptops</a></button>
                         </div>
                         <div>
-                            <button class="footer2-b"><a href=""></a>Macbook </button>
-                            <button class="footer2-btn"><a href=""></a>SSD</button>
-                            <button class="footer2-btnn"><a href=""></a>Graphics Card </button>
+                            <button class="footer2-b"><a href="https://www.apple.com/mac/">Macbook</a></button>
+                            <button class="footer2-btn"><a href="https://glotr.uz/ssd/">SSD</a></button>
+                            <button class="footer2-btnn"><a
+                                    href="https://www.nvidia.com/en-eu/geforce/graphics-cards/">Graphics Card</a>
+                            </button>
                         </div>
                         <div>
-                            <button class="footer2-btnn"><a href=""></a>Power Bank </button>
-                            <button class="footer2-btnn"><a href=""></a>Smart TV</button>
-                            <button class="footer2-btn"><a href=""></a>Speaker</button>
+                            <button class="footer2-btnn"><a
+                                    href="https://olcha.uz/ru/category/telefony-gadzhety-aksessuary/aksessuary/power-bank ">Power
+                                    Bank</a></button>
+                            <button class="footer2-btnn"><a
+                                    href="https://mediapark.uz/products/category/televizory-i-smart-televizory-8/smart-tv-217">Smart
+                                    TV</a></button>
+                            <button class="footer2-btn"><a href="https://www.jbl.com/speakers/">Speaker</a></button>
                         </div>
                         <div>
-                            <button class="footer2-btn"><a href=""></a>Tablet</button>
-                            <button class="footer2-btnn"><a href=""></a>Microwave</button>
-                            <button class="footer2-b"><a href=""></a>Samsung</button>
+                            <button class="footer2-btn"><a
+                                    href=https://www.bing.com/videos/search?q=table&qpvt=table&FORM=VDRE"">Tablet</a></button>
+                            <button class="footer2-btnn"><a
+                                    href="https://en.wikipedia.org/wiki/Microwave">Microwave</a></button>
+                            <button class="footer2-b"><a href="https://www.samsung.com/">Samsung</a></button>
                         </div>
                     </div>
                 </div>
