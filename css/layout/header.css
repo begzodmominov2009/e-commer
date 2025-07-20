@@ -148,3 +148,19 @@ header {
     padding-left: 350px;
 
 }
+.head-logo-bar{
+    /* width: 30px; */
+    border: none;
+    display: none;
+}
+@media (max-width:510px) {
+    .head-ul{
+        display: none;
+    }
+    .head-logo-bar{
+        display: inline-block;
+    }
+    .head-titlefrom{
+        display: none;
+    }
+}
