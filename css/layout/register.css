@@ -12,9 +12,15 @@
     padding-top: 255px;
     padding-bottom: 20px;
 }
+#sing{
+    margin-bottom: 132px;
+}
 
 .sing__buttons {
     display: flex;
+}
+.sing__password{
+    padding-right: 15px;
 }
 
 .sing__button {
@@ -64,7 +70,6 @@
     border-radius: 3px;
     outline: none;
     padding-left: 15px;
-    font-size: 17px;
     margin-bottom: 26px;
     background-color: transparent;
 }
