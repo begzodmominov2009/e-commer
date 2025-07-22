@@ -61,7 +61,8 @@ header {
     color: white;
     transition: 0.5s
 }
-.head-select:hover option{
+
+.head-select:hover option {
     background-color: white;
     color: black;
 }
@@ -148,19 +149,96 @@ header {
     padding-left: 350px;
 
 }
-.head-logo-bar{
-    /* width: 30px; */
+
+.head-logo-bar {
+    width: 30px;
     border: none;
     display: none;
 }
+
 @media (max-width:780px) {
-    .head-ul{
+    .head-ul {
         display: none;
     }
-    .head-logo-bar{
-        display: inline-block;
+
+    .head-logo-bar {
+        display: block;
     }
-    .head-titlefrom{
+
+    .head-titlefrom {
+        width: 350px;
+        margin-left: -400px;
+        height: 37px;
+    }
+
+    .head-logo {
         display: none;
+    }
+
+    #header2 {
+        white-space: nowrap;
+        padding-left: 20px;
+        font-size: 14px;
+    }
+
+    .head-class {
+        margin-left: 20px;
+    }
+
+    .head-class img {
+        width: 120px;
+    }
+
+    .head-subtitle {
+        padding-left: 20px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width:380px) {
+    .head-ul {
+        display: none;
+    }
+
+    .head-logo-bar {
+        display: block;
+    }
+
+    .head-titlefrom {
+        width: 180px;
+        margin-left: -100px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .head-logo {
+        display: none;
+    }
+
+    #header2 {
+        white-space: nowrap;
+        font-size: 14px;
+        overflow: scroll;
+        margin-right: 20px;
+    }
+    #header2 img{
+        width:  20px;
+    }
+
+    .head-class3 {
+        display: none;
+    }
+
+    .head-class {
+        margin-left: 20px;
+    }
+
+    .head-class img {
+        width: 130px;
+    }
+
+    .head-subtitle {
+        font-size: 10px;
+        padding-right: 50px;
     }
 }
