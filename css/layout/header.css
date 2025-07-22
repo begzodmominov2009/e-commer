@@ -115,7 +115,8 @@ header {
     outline: none;
     background-color: whitesmoke;
     transition: 0.7s;
-    padding-left: 12px;
+    padding-left: 15px;
+    padding-right: 12px;
 }
 
 .head-select2:hover {
@@ -244,6 +245,18 @@ header {
         font-size: 10px;
         padding-right: 50px;
     }
+
+    .head-select2 {
+        width: 160px;
+        height: 30px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        background-color: whitesmoke;
+        transition: 0.7s;
+        padding-left: 15px;
+        padding-right: 12px;
+    }
 }
 
 @media (max-width:390px) {
@@ -292,5 +305,17 @@ header {
     .head-subtitle {
         font-size: 10px;
         padding-right: 50px;
+    }
+
+    .head-select2 {
+        width: 130px;
+        height: 30px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        background-color: whitesmoke;
+        transition: 0.7s;
+        padding-left: 15px;
+        padding-right: 12px;
     }
 }
