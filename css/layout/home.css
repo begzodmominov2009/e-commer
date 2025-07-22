@@ -1192,6 +1192,7 @@
     .main-img3 {
         width: 160px;
         padding-right: 20px;
+        padding-top: 15px;
     }
 
     .main-subtitle7 {
@@ -1207,5 +1208,141 @@
         margin-right: 28px;
         width: 115px;
         height: 35px;
+    }
+}
+
+@media (max-width:400px) {
+    .title {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: center;
+    }
+}
+
+@media (max-width:400px) {
+    .hero__contact2 {
+        flex-wrap: wrap;
+    }
+
+    .hero__contact {
+        white-space: nowrap;
+        margin-right: 20px;
+        margin-left: 40px;
+        gap: 14px;
+        justify-content: center;
+    }
+
+    .hero__span2 {
+        display: none;
+    }
+
+    .hero__img {
+        display: none;
+    }
+
+    .hero__title {
+        font-size: 19px;
+    }
+
+    .hero__desciription {
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .hero__span {
+        font-size: 16px;
+        width: 156px;
+        padding: 5px;
+    }
+
+    .hero__card {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .hero__card2 {
+        width: 155px;
+        height: 296px;
+        justify-content: center;
+        margin-left: 20px;
+    }
+
+    .hero__desciription4 {
+        font-size: 11px;
+    }
+
+    .hero__img6 {
+        margin-left: -20px;
+        width: 190px;
+        
+    }
+
+    .hero__strike2 {
+        font-size: 13px;
+    }
+
+    .hero__desciription6 {
+        padding: 7px;
+    }
+
+    .hero__img7 {
+        top: 70px;
+        left: 18px;
+        width: 39px;
+        height: 39px;
+        padding: px;
+    }
+
+    .hero__img8 {
+        position: absolute;
+        top: 0px;
+        background-color: whitesmoke;
+        width: 39px;
+        height: 39px;
+        padding: 9px;
+        top: 70px;
+        left: 65px;
+        border-radius: 100px;
+        padding: 12px;
+        opacity: 0;
+        transition: 1.3s;
+        cursor: pointer;
+    }
+
+    .hero__card2:hover .hero__img8 {
+        opacity: 1;
+    }
+
+    .hero__img9 {
+        position: absolute;
+        top: 0px;
+        background-color: whitesmoke;
+        width: 39px;
+        height: 39px;
+        padding: 9px;
+        top: 70px;
+        left: 110px;
+        border-radius: 100px;
+        padding: 12px;
+        overflow: hidden;
+        cursor: pointer;
+        transform: translateX(100px);
+        transition: 0.6s;
+    }
+
+    .hero__card2:hover .hero__img9 {
+        transform: translateX(0px);
+    }
+
+    .hero__desciription7{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .hero__strike2{
+        font-size: ;
     }
 }
