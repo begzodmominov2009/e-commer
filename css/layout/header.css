@@ -221,8 +221,9 @@ header {
         overflow: scroll;
         margin-right: 20px;
     }
-    #header2 img{
-        width:  20px;
+
+    #header2 img {
+        width: 20px;
     }
 
     .head-class3 {
@@ -235,6 +236,56 @@ header {
 
     .head-class img {
         width: 130px;
+    }
+
+    .head-subtitle {
+        font-size: 10px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width:440px) {
+    .head-ul {
+        display: none;
+    }
+
+    .head-logo-bar {
+        display: block;
+    }
+
+    .head-titlefrom {
+        width: 210px;
+        margin-left: -130px;
+        height: 30px;
+        font-size: 10px;
+        
+    }
+
+    .head-logo {
+        display: none;
+    }
+
+    #header2 {
+        white-space: nowrap;
+        font-size: 14px;
+        overflow: scroll;
+        margin-right: 20px;
+    }
+
+    #header2 img {
+        width: 25px;
+    }
+
+    .head-class3 {
+        display: none;
+    }
+
+    .head-class {
+        margin-left: 20px;
+    }
+
+    .head-class img {
+        width: 140px;
     }
 
     .head-subtitle {
