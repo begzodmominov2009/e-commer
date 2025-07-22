@@ -1120,7 +1120,7 @@
     transform: scale(1.1);
 }
 
-@media (max-width:380px) {
+@media (max-width:400px) {
     .cardlar {
         flex-wrap: wrap;
     }
