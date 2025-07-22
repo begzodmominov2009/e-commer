@@ -154,6 +154,7 @@ header {
     width: 30px;
     border: none;
     display: none;
+    border: 1px solid black;
 }
 
 @media (max-width:780px) {
