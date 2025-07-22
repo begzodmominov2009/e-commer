@@ -265,7 +265,7 @@ header {
     }
 
     .head-logo-bar {
-        display: block;
+        display: inline-block;
     }
 
     .head-titlefrom {
@@ -283,7 +283,7 @@ header {
         white-space: nowrap;
         font-size: 12px;
         overflow: scroll;
-        margin-left: 20px;
+        
     }
 
     #header2 img {
